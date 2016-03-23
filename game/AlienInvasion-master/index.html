@@ -1,0 +1,76 @@
+﻿<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Alien Invasion</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+  <link rel="stylesheet" href="base.css" type="text/css" />
+  <link href='http://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
+  <meta name="viewport" content="width=device-width, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0"/>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+</head>
+<body>
+    <div class="banner">
+        <div class="header">
+            <div class="container">
+                <div class="head-left">
+                    <ul class="number">
+                        <li><span><i class="roc"> </i>101 West Street, New York, NY 12345</span>
+                        <li>
+                            <span><i class="phone"> </i>Phone : (000) 888 88888</span>
+                        </li>
+                        <li><a href="mailto:info@example.com"><i class="mail"> </i>info@sitename.com </a></li>
+                        <div class="clearfix"> </div>
+                    </ul>
+                </div>
+                <div class="search2">
+                    <form>
+                        <input type="text" value="search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'search';}">
+                        <input type="submit" value="">
+                    </form>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logofinal.png" class="img-responsive" alt="" /></a>
+                </div>
+                <div class="head-nav">
+                    <span class="menu"> </span>
+                    <ul class="cl-effect-15">
+                        <li><a href="index.html" data-hover="HOME">HOME</a></li>
+                        <li><a href="about.html" data-hover="ABOUT">ABOUT</a></li>
+                        <li><a href="services.html" data-hover="SERVICES">SERVICES</a></li>
+                        <li><a href="portfolio.html" data-hover="PORTFOLIO">PORTFOLIO</a></li>
+                        <li class="active"><a href="404.html">BLOG</a></li>
+                        <li><a href="contact.html" data-hover="CONTACT">CONTACT</a></li>
+
+                    </ul>
+                </div>
+
+
+            </div>
+            <div class="error-404 text-center">
+
+
+                <h1>404</h1>
+                <p>This Link is a Dead Link  (x_x)</p>
+                <a class="b-home" href="home.aspx">Back to Home Page</a>
+                <br />
+                <br />
+                <p>Can you win?</p>
+                <br />
+                <div id='container'>
+                    <canvas id='game' width='320' height='480'></canvas>
+                </div>
+            </div>
+                <script src='engine.js'></script>
+                <script src='game.js'></script>
+</body>
+</html>
+
+

@@ -1,0 +1,100 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+
+<!DOCTYPE HTML>
+<html>
+<head runat="server">
+<title>KMIT FORUM</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Atech Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<script src="js/jquery.min.js"></script>
+ <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+<!-- header -->
+ <form id="form1" runat="server">
+	<div class="banner">
+		<div class="header">
+			
+		</div>
+		<div class="header-bottom">
+			<div class="container">
+				<div class="logo">
+					<a href="home.aspx"><img src="images/logofinal.png" class="img-responsive" alt="" /></a></div>
+			
+				<div class="head-nav">
+					<span class="menu"> </span>
+						<ul class="cl-effect-15">
+							<li class="active"><a href="home.aspx">HOME</a></li>
+								<li><a href="login.aspx" data-hover="LOGIN">LOGIN</a></li>
+								
+									<div class="clearfix"> </div>
+							</ul>
+				</div>
+					<div class="clearfix"> </div>
+			</div>
+		</div>
+						<!-- script-for-nav -->
+					<script>
+						$( "span.menu" ).click(function() {
+						  $( ".head-nav ul" ).slideToggle(300, function() {
+							// Animation complete.
+						  });
+						});
+					</script>
+				<!-- script-for-nav --> 	
+				<i class="line"> </i>
+	            <i class="line"> </i>
+				
+	</div>	
+	
+		
+		
+		<i class="line"> </i>
+<!-- made -->
+	<div class="made">
+		<div class="container">
+		
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+            
+        </asp:ContentPlaceHolder>
+    
+    <i class="line"> </i>
+			
+        <asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server">
+        
+        </asp:ContentPlaceHolder>
+   
+    
+		</div>
+				
+				<div class="clearfix"> </div>
+			
+	<i class="line"> </i>
+	<p></p>
+<!-- made -->
+    <div class="error-404 text-center"><img src="images/dehi.png"  style="align-self:center"/>
+     
+        </div>
+	<p></p>
+<!-- check -->
+	<i class="line"> </i>
+	<i class="line"> </i>
+<!-- check -->
+					<br/>
+	
+
+	
+</form>
+</body>
+</html>
